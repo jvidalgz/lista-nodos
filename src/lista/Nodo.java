@@ -5,8 +5,7 @@ package lista;
  */
 public class Nodo {
     public String dato;
-
-
+    
     public Nodo(String d){
         this.dato=d;
         }
