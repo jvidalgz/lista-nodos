@@ -22,5 +22,9 @@ public class Lista {
         size++;
     }
 
+    public Nodo get(int i) {
+        return data[i];
+    }
+
 
 }
