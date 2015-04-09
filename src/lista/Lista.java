@@ -14,7 +14,7 @@ public class Lista {
     } // constructs list with default capacity
 
     public Lista(int capacity) { // constructs list with given capacity
-        data = (Nodo[]) new Object[capacity]; // safe cast; compiler may give warning
+        Nodo[] data = new Nodo[capacity];
     }
 
     public void add(Nodo nodo) {
