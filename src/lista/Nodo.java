@@ -5,7 +5,16 @@ package lista;
  */
 public class Nodo {
     public String dato;
-    public Nodo sig;
 
 
+    public Nodo(String d){
+        this.dato=d;
+        }
+
+    @Override
+    public String toString() {
+        return "Nodo{" +
+                "dato='" + dato + '\'' +
+                '}';
+    }
 }
